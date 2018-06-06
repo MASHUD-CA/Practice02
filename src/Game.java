@@ -14,9 +14,9 @@ public int rollDice(int numDice, int numSides) {
 		numDice = 1;
 	}
 	
-	//Forces minimum of 4 sides
-	if(numSides < 4) {
-		numSides = 4;
+	//Forces minimum of 5 sides
+	if(numSides < 5) {
+		numSides = 5;
 	}
 	System.out.printf("You selected %d dice with %d sides %n", numDice, numSides);
 	
