@@ -17,7 +17,7 @@ public class MethodsAndArrays {
 			System.out.println("Enter the number of sides");
 			numSides = input.nextInt();
 			
-			System.out.printf("you rolled %d%n ", game.rollDice(numDice, numSides));
+			System.out.printf("You rolled %d%n ", game.rollDice(numDice, numSides));
 			
 		}
 		catch (Exception e) {
