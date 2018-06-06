@@ -18,7 +18,7 @@ public int rollDice(int numDice, int numSides) {
 	if(numSides < 4) {
 		numSides = 4;
 	}
-	System.out.printf("You selected %d dice with %d sides ", numDice, numSides);
+	System.out.printf("You selected %d dice with %d sides %n", numDice, numSides);
 	
 	SecureRandom generateRandom = new SecureRandom();
 	int result = 0;
